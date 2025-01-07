@@ -13,7 +13,7 @@
 ### *Requisitos Funcionales*
 
 1. **Recepción de Datos**
-  - El servidor debe recibir los datos enviados por el sistema de monitoreo a través de un protocolo estándar (e.g., HTTP/HTTPS o MQTT).
+   - El servidor debe recibir los datos enviados por el sistema de monitoreo a través de un protocolo estándar (e.g., HTTP/HTTPS o MQTT).
   - Debe validar los datos recibidos para garantizar que estén completos y correctos antes de almacenarlos.
 
 2. **Almacenamiento de Datos**
