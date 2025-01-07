@@ -22,7 +22,6 @@
      - Sensor (tipo y ubicación).
      - Valor medido.
      - Marca de tiempo.
-   - Se deben manejar políticas de retención de datos configurables para optimizar el almacenamiento.
 
 3. **Gestión de Dispositivos**
    - Permitir la administración de dispositivos conectados, como registrar, actualizar y eliminar sistemas de monitoreo.
@@ -53,7 +52,7 @@
 
 ### *Requisitos No Funcionales*
 1. **Escalabilidad**
-   - El servidor debe poder manejar datos provenientes de múltiples dispositivos simultáneamente (e.g., cientos o miles).
+   - El servidor debe poder manejar datos provenientes de múltiples dispositivos simultáneamente.
    - Debe ser posible ampliar el almacenamiento y la capacidad de procesamiento según sea necesario.
 
 2. **Disponibilidad**
@@ -67,7 +66,6 @@
 4. **Seguridad**
    - Implementar cifrado en tránsito (TLS/SSL) para la comunicación entre el sistema de monitoreo y el servidor.
    - Utilizar autenticación y autorización para acceder a la interfaz y la API.
-   - Proteger la base de datos contra accesos no autorizados mediante firewalls y controles de acceso.
 
 5. **Interfaz de Usuario**
    - La interfaz debe ser accesible desde navegadores modernos y dispositivos móviles.
