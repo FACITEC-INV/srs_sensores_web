@@ -13,11 +13,11 @@
 ### *Requisitos Funcionales*
 
 1. **Recepción de Datos**
-   - El servidor debe recibir los datos enviados por el sistema de monitoreo a través de un protocolo estándar (e.g., HTTP/HTTPS o MQTT).
+   - El servidor debe recibir los datos enviados por el sistema de monitoreo a través de un API REST.
    - Debe validar los datos recibidos para garantizar que estén completos y correctos antes de almacenarlos.
 
 2. **Almacenamiento de Datos**
-   - El servidor debe almacenar los datos de manera estructurada en una base de datos relacional o no relacional.
+   - El servidor debe almacenar los datos de manera estructurada en una base de datos relacional.
    - Los datos deben incluir la información de:
      - Sensor (tipo y ubicación).
      - Valor medido.
@@ -36,7 +36,7 @@
 
 5. **Alertas y Notificaciones**
    - Generar alertas automáticas cuando los valores medidos excedan umbrales predefinidos.
-   - Permitir que las alertas se envíen a través de correo electrónico, SMS o notificaciones push.
+   - Permitir que las alertas se envíen a través de correo electrónico.
 
 6. **Configuración de Parámetros Globales**
    - Configurar los umbrales de alerta para cada tipo de sensor.
@@ -64,7 +64,6 @@
    - Los gráficos e informes deben cargarse en menos de 3 segundos para datos recientes.
 
 4. **Seguridad**
-   - Implementar cifrado en tránsito (TLS/SSL) para la comunicación entre el sistema de monitoreo y el servidor.
    - Utilizar autenticación y autorización para acceder a la interfaz y la API.
 
 5. **Interfaz de Usuario**
