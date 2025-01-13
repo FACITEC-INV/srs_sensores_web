@@ -9,7 +9,7 @@ El análisis y la visualización de datos son componentes esenciales en sistemas
 - Facilitar la visualización de los datos a través de gráficos interactivos, reportes personalizados y dashboards.
 - Implementar alertas automáticas para notificar eventos críticos relacionados con los parámetros medidos.
 
-### *Proposito del documento*
+### *Propósito del documento*
 El propósito de este documento es definir las especificaciones de requisitos para el desarrollo del servidor remoto destinado al análisis y visualización de datos de calidad del agua. El documento tiene como objetivos:
 - **Describir las funcionalidades esperadas** del servidor, así como sus características técnicas.
 - **Garantizar un entendimiento común** entre los desarrolladores y demás partes interesadas.
