@@ -128,9 +128,7 @@ El servidor remoto es una plataforma centralizada diseñada para gestionar los d
 
 | Descripción | Detalle |
 | ------------- | -------------- |
-| Servidor | - 2 procesadores de 16 nucleos
-             - Memoria de 256 GB
-             - Almacenamiento de 10 TB |
+| Servidor | - 2 procesadores de 16 nucleos<br> - Memoria de 256 GB<br> - Almacenamiento de 10 TB |
 
 2. **Software**
 
